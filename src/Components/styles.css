@@ -1,0 +1,153 @@
+:root{
+    --major:#ffffff;
+    --navcolor:#D2D0D0;
+    --navtext:#845BAE;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.hidebtn{
+    border: none;
+    outline: none;
+    color: #264bc7;
+    background-color: transparent;
+  }
+  .hidebtn :hover{
+    color: red;
+  }
+.ActiveLink{
+    color: var(--major);
+    background-color:#845BAE;
+}
+.outerdiv{
+    background-color: #EAEAEA;
+    padding: 20px;
+}
+.innerdiv{
+    background-color: white;
+    border-radius: 6px;
+    width: 100%;
+    height: 80vh;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.navbarmain{
+    height: 80px;
+    text-align: center;
+    padding:10px;
+    color:var(--navtext) ;
+    background-color: white;
+}
+.majoricon{
+    font-size: 80px;
+transform: rotate(-25deg);
+    color: var(--navtext);
+}
+.sidebarelement{
+    height: 50px;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebardiv{
+     background-color: var(--major);
+    width: 150px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.columnfix{
+    display: flex;
+}
+.maindiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.createticketdiv{
+    padding: 20px;
+}
+.splitform{
+    display: flex;
+    padding: 10px;
+    height: 400px;
+}
+.first{
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100%;
+    width: 50%;
+}
+.alignright{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.inputgrp{
+    display: grid;
+    grid-template-columns: 6fr 1fr 12fr;
+    }
+    
+    .inputgrp select{
+      
+      border: 1px solid black;
+      height: 40px;
+      border-radius: 5px;
+    }
+    .inputgrp label{
+        font-size: large;
+        
+    }
+    .inputgrp input{
+        border: 1px solid black;
+        width: 100%;
+        height: 20px;
+        border-radius: 5px;
+        padding: 15px;
+       
+    }
+    .inputgrp textarea{
+        padding: 10px;
+        border: 1px solid black;
+        height: 100px;
+        border-radius: 5px;
+      }  
+      
+      .low{
+        background-color: #ECFDF3;
+        color: #037847;
+        font-size: small;
+        width: fit-content;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 10px;
+      }
+      .medium{
+        background-color: #eeefbaa7;
+        color: #767814;
+        font-size: small;
+        width: fit-content;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 10px;
+      }
+      .high{
+        background-color: #e2a6a6;
+        color: #b70909;
+        font-size: small;
+        width: fit-content;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 10px;
+      }
